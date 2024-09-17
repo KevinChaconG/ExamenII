@@ -20,7 +20,7 @@
             <Label Text="Subtotal: " />
             <Entry Text="{Binding Subtotal}" IsReadOnly="True" />
 
-            <Label Text="Descuento: " />
+            <Label Text="Porcentaje de Descuento: " />
             <Entry Text="{Binding Descuento}" IsReadOnly="True" />
 
             <Label Text="Total: " />

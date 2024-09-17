@@ -43,7 +43,8 @@ namespace ExamenII.ViewModels
 
                     if(Subtotal < 999.99)
                     {
-                        Subtotal = Total;
+                        Descuento = 0;
+                        Total = Subtotal;
                     } else if (Subtotal < 4999.99)
                     {
                         Descuento = 10;
